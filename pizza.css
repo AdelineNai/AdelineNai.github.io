@@ -1,0 +1,390 @@
+* {
+	font-family: 'Zen Antique', serif;
+	font-size: 20px;
+}
+
+.menu {
+	width: 100%;
+	height: 55px;
+	background: #FFFB72;
+	position: fixed;
+}
+
+.menu ul {
+	padding: 10px;
+}
+.menu li {
+	display: inline;
+	font-size: 20px;
+	padding: 20px;
+}
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu li:hover {
+	background: #C6C479;
+	transition: 1s;
+}
+.banner div  {
+	width: 100%;
+	width: 100%;
+	height: 400px;
+	background: green;
+	background: url(banner3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.imgbanner {
+
+}
+
+
+
+
+
+body {
+	background: #FFFDA5;
+}
+.nono {
+   font-family: 'Irish Grover', cursive;
+   color: rgb(100, 0, 0);
+}
+
+h1 b {
+	font-size: 40px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100vh;
+}
+
+.main {
+	padding: 20px;
+}
+
+.footer {
+	flex-basis: 100%;
+	background: black;
+	height: 200px;
+}
+
+.main {
+	flex-grow: 4;
+	background: #FFFDA5;
+}
+
+
+.main {
+	height: 700px;
+	display: flex;
+}
+
+.fotoxd {
+	width: 100%;
+	height: 40%;
+	display: flex;
+}
+
+
+h2 {
+	background: whitesmoke;
+	text-align: center;
+	font-size: 30px;
+}
+
+.contenedor:hover {
+	background: #FFD57A;
+	height: 420px;
+}
+
+.png {
+	background: #FFFDA5;
+}
+
+.logop {
+	display: flex;
+	flex-direction: row;
+	background: #FFFDA5;
+	width: 20%;
+}
+
+.contenedor-pedir {
+	background: #CDCA60;
+	width: 90%;
+	height: 80px;
+	margin: auto;
+}
+
+.pedir {
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.pedir:hover {
+	font-size: 25px;
+	transition: 1s;
+	color: #CF0000;
+}
+
+
+
+.contenedor {
+	padding: 10px;
+	width: 250px;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+
+.footer {
+	padding: 40px;
+	color: grey;
+	font-size: 15px;
+}
+
+.footer a {
+	color: white;
+}
+
+
+
+
+.picsa {
+	border: 2px solid black;
+	text-align: center;
+	height: 400px;
+}
+
+.picsa img {
+	display: flex;
+	width: 100%;
+	height: 40%;
+}
+
+.picsa div {
+	padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.contenedor-bebidas {
+	background: #0E0E0E;
+   width: 100%;
+   display: flex;
+   height: 1000px;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+
+
+
+.banner-bebidas {
+	width: 100%;
+	height: 400px;
+	background: green;
+	background-image: url(https://www.diariodesevilla.es/2020/10/16/sociedad/subida-anunciada-IVA-precio-Coca-Cola_1510958978_126878288_667x375.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.banner-bebidas p {
+	font-size: 100px;
+	color: whitesmoke;
+	text-align: center;
+
+}	
+
+
+.drink {
+	background: #1C1C1C;
+	border: 2px solid black;
+	text-align: center;
+	height: 400px;
+	color: white;
+}
+
+.drink img {
+	display: flex;
+	width: 100%;
+	height: 40%;
+}
+
+.drink div {
+	padding: 30px;
+}
+
+.pedir-bebidas:hover {
+	font-size: 22px;
+	transition: 1s;
+	color: #3CFE25;
+}
+
+.contenedor-pedir-b {
+	background: black;
+	width: 90%;
+	height: 80px;
+	margin: auto;
+}
+
+.pedir-bebidas {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.contenedor-bebidas-padding {
+	padding: 20px;
+	width: 240px;
+}
+
+.xd {
+	background: red;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.drink:hover {
+	background: #150000;
+}
+
+#menupng {
+	width: 50px;
+	height: 50px;
+}
+#check-menu {
+	display: none;
+}
+header label {
+	display: none;
+	width: 50px;
+	height: 70px;
+	padding: 0px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1240px) {
+
+    .pedir, .contenedor-pedir, .contenedor-pedir-b {
+      font-size: 10px;
+	   color: white;
+	   text-decoration: none;
+	   width: 200px;
+	   height: 30px;
+    }
+
+    .drink {
+    	height: 300px;
+    	width: 215px;
+    }
+
+    .contenedor-bebidas{
+    	height: 5000px;
+
+    }
+
+    .picsa {
+    	width: 250px;
+    	height: 300px;
+   
+    }
+
+    .banner {
+    	height: 150px;
+    }
+
+    .menu {
+    	position: relative;
+    }
+
+    .banner-bebidas p {
+    	font-size: 50px;
+    }
+
+    .main {
+    	flex-wrap: wrap;
+    	height: 2000px;
+    	justify-content: center;
+    }
+
+  .banner div  {
+   background: url(bannercel2.jpg);
+   }
+
+   .banner-bebidas {
+   	height: 150px;
+   }
+
+   h1 b {
+   	font-size: 22px;
+   }
+
+   header label {
+	display: block;
+   }
+
+   header {
+   	background: #FFFB72;
+   }
+
+	#check-menu:checked ~ .menu {
+		margin-top: 0%;
+		transition: all .5s;
+	}
+	.menu {
+		position: absolute;
+		width: 100%;
+		margin-top: -100%;
+	}
+
+
+	.menu ul {
+		flex-direction: column;
+		padding: 10px;
+		text-align: left;
+		display: flex;
+	   background: #FFFB72;
+  
+	}
+	.menu li {
+	padding: 10px;
+	margin-left: -15px;
+	border-bottom: 1px solid black;
+   } 
+
+
+   .space {
+   	display: none;
+   }
+
+   #menupng {
+   }
+
+}
+
